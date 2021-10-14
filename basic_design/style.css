@@ -22,3 +22,24 @@ body {
 .volume {
     margin-bottom: 85px;
 }
+
+.circle {
+    width: 246px;
+    height: 246px;
+    border-radius: 50%;
+}
+
+.circle:nth-child(1) {
+    background-color: transparent;
+    border: 10px solid black;
+    opacity: 0.2;
+    box-sizing: border-box;
+}
+
+.circle:nth-child(2) {
+    background-color: #ffc000;
+}
+
+.circle:nth-child(3) {
+    background-color: #ffdd15;
+}
