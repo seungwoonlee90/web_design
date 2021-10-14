@@ -9,6 +9,10 @@ body {
     overflow-x: hidden;
 }
 
+h1 {
+    margin: 0;
+}
+
 .text-area {
     margin-top: 90px;
     margin-left: 24px;
@@ -18,6 +22,17 @@ body {
     font-size: 30px;
     line-height: 1;
     font-weight: normal;
+    margin-bottom: 22px;
+}
+
+.line {
+    width: 46px;
+    height: 1px;
+    background-color: #ffe6cf;
+    position: relative;
+    top: -8px;
+    display: inline-block;
+    opacity: 0.5;
 }
 
 .volume {
@@ -39,7 +54,7 @@ body {
 
 .circle:nth-child(1) {
     background-color: transparent;
-    border: 10px solid black;
+    border: 5px solid black;
     opacity: 0.2;
     box-sizing: border-box;
 
@@ -69,4 +84,5 @@ body {
     position: fixed;
     top: 0;
     right: 24px;
+    font-weight: bold;
 }
