@@ -43,3 +43,16 @@ body {
 .circle:nth-child(3) {
     background-color: #ffdd15;
 }
+
+#badge {
+    background-color: #ffc000;
+    color: #485861;
+    width: 56px;
+    height: 56px;
+    margin-left: 24px;
+    padding-left: 13px;
+    padding-top: 18px;
+    font-size: 9px;
+    line-height: 11px;
+    box-sizing: border-box;
+}
