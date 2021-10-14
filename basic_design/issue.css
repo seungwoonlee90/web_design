@@ -1,0 +1,26 @@
+sup {
+    font-size: 10px;
+}
+
+.featured {
+    height: 310px;
+    position: relative;
+    background-image: url("https://github.com/anjihhg/billy_htmlcss/blob/master/img/issue-1.jpg?raw=true");
+    background-size: cover;
+}
+
+.count {
+    position: absolute;
+    top: 30px;
+    right: 26px;
+}
+
+.text-area {
+    position: absolute;
+    bottom: 36px;
+    left: 24px;
+}
+
+.featured .title {
+    margin-bottom: 12px;
+}
