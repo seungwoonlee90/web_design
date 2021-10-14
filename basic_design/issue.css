@@ -24,3 +24,31 @@ sup {
 .featured .title {
     margin-bottom: 12px;
 }
+
+.swiper {
+    white-space: nowrap;
+    overflow-x: scroll;
+    padding: 24px;
+}
+
+.swiper li {
+    width: 186px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.swiper li:nth-child(1) {
+    background-image: url("https://github.com/anjihhg/billy_htmlcss/blob/master/img/issue-2.jpg?raw=true");
+}
+
+.swiper li:nth-child(2) {
+    background-image: url("https://github.com/anjihhg/billy_htmlcss/blob/master/img/issue-3.jpg?raw=true");
+}
+
+.swiper li:nth-child(3) {
+    background-image: url("https://github.com/anjihhg/billy_htmlcss/blob/master/img/issue-4.jpg?raw=true");
+}
