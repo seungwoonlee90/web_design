@@ -68,6 +68,18 @@ h1 {
 .circle:nth-child(3) {
     background-color: #ffdd15;
     left: 200px;
+    transition: 1s;
+    top: 0;
+}
+
+.circle:nth-child(3):hover {
+    background-color: blue;
+    top: -20px;
+}
+
+.circle:nth-child(3):active {
+    background-color: cornflowerblue;
+    top: -20px;
 }
 
 #badge {
