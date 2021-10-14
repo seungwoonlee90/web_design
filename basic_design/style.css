@@ -6,6 +6,7 @@ body {
     font-size: 11px;
     line-height: 1.4;
     font-weight: 500;
+    overflow-x: hidden;
 }
 
 .text-area {
@@ -23,10 +24,17 @@ body {
     margin-bottom: 85px;
 }
 
+#circle-wrapper {
+    position: relative;
+    margin-left: 24px;
+    margin-top: 42px;
+}
+
 .circle {
     width: 246px;
     height: 246px;
     border-radius: 50%;
+    position: absolute;
 }
 
 .circle:nth-child(1) {
@@ -34,14 +42,17 @@ body {
     border: 10px solid black;
     opacity: 0.2;
     box-sizing: border-box;
+
 }
 
 .circle:nth-child(2) {
     background-color: #ffc000;
+    left: 100px;
 }
 
 .circle:nth-child(3) {
     background-color: #ffdd15;
+    left: 200px;
 }
 
 #badge {
@@ -55,4 +66,7 @@ body {
     font-size: 9px;
     line-height: 11px;
     box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    right: 24px;
 }
