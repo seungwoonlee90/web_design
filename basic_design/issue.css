@@ -29,6 +29,7 @@ sup {
     white-space: nowrap;
     overflow-x: scroll;
     padding: 24px;
+    padding-bottom: 7px;
 }
 
 .swiper li {
@@ -53,13 +54,10 @@ sup {
     background-image: url("https://github.com/anjihhg/billy_htmlcss/blob/master/img/issue-4.jpg?raw=true");
 }
 
-.list {
-    padding: 24px;
-}
-
 .item {
-    margin-top: 17px;
-    margin-bottom: 20px;
+    padding: 17px 24px 20px 24px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 
 .item .num {
@@ -72,13 +70,15 @@ sup {
     box-sizing: border-box;
     display: inline-block;
     margin-right: 20px;
-    position: relative;
-    top: -18px;
+    position: absolute;
+    top: 50%;
+    margin-top: -13px;
 }
 
 .item .infos {
     display: inline-block;
     width: 80%;
+    margin-left: 36px;
 }
 
 .item .title {
