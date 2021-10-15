@@ -56,8 +56,9 @@ sup {
 
 .item {
     padding: 17px 24px 20px 24px;
-    position: relative;
     border-bottom: 1px solid rgba(0,0,0,0.08);
+    display: flex;
+    align-items: center;
 }
 
 .item .num {
@@ -70,15 +71,6 @@ sup {
     box-sizing: border-box;
     display: inline-block;
     margin-right: 20px;
-    position: absolute;
-    top: 50%;
-    margin-top: -13px;
-}
-
-.item .infos {
-    display: inline-block;
-    width: 80%;
-    margin-left: 36px;
 }
 
 .item .title {
