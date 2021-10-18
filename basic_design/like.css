@@ -9,11 +9,24 @@
 
 .search .search_field {
   width: 100%;
+  flex-shrink: 0;
+  transition: 0.3s;
+}
+
+.search .search_field:focus {
+  width: 80%;
+  flex-shrink: initial;
+}
+
+.search .search_field:focus ~ .cancle_btn {
+  opacity: 1;
 }
 
 .search .cancle_btn {
   flex-shrink: 0;
   margin-left: 20px;
+  opacity: 0;
+  transition: 0.2s ease;
 }
 
 .search_icon {
