@@ -1,0 +1,47 @@
+header {
+  text-align: center;
+}
+
+header .thumb {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+}
+
+header .thumb-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 36px;
+}
+
+header .badge {
+  width: 28px;
+  height: 28px;
+  font-size: 12px;
+  position: absolute;
+  background-color:red;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .greeting {
+  margin-bottom: 10px;
+}
+
+header .mail {
+  padding: 8px 22px 10px 22px;
+  background-color: rgba(0,0,0,0.05);
+  display: inline-block;
+  border-radius: 20px;
+  border: 1px solid rgba(0,0,0,0.08);
+  box-sizing: border-box;
+  margin-top: 18px;
+}
+
+.list {
+
+}
