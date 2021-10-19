@@ -1,5 +1,6 @@
 header {
   text-align: center;
+  margin-top: 75px;
 }
 
 header .thumb {
@@ -43,5 +44,34 @@ header .mail {
 }
 
 .list {
+  margin-top: 48px;
+}
 
+.list .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  font-size: 15px;
+}
+
+.list .item .left {
+  display: flex;
+  align-items: center;
+}
+
+.list .item .left .name {
+  margin-left: 6px;
+}
+
+.list .item .right {
+  opacity: 0.5;
+}
+
+.list .item img {
+  padding: 20px 22px;
+}
+
+.list .item .right img {
+  padding-right: 14px;
 }
