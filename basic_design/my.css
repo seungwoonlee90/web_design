@@ -7,6 +7,7 @@ header .thumb {
   width: 92px;
   height: 92px;
   border-radius: 50%;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.1), 0 12px 24px 0 rgba(0, 0, 0, 0.24);
 }
 
 header .thumb-wrapper {
@@ -20,10 +21,10 @@ header .badge {
   height: 28px;
   font-size: 12px;
   position: absolute;
-  background-color:red;
+  background-color: #ff5500;
   border-radius: 50%;
   top: 0;
-  right: 0;
+  right: -8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,10 +36,10 @@ header .greeting {
 
 header .mail {
   padding: 8px 22px 10px 22px;
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(0, 0, 0, 0.05);
   display: inline-block;
   border-radius: 20px;
-  border: 1px solid rgba(0,0,0,0.08);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   box-sizing: border-box;
   margin-top: 18px;
 }
@@ -51,7 +52,7 @@ header .mail {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid rgba(0,0,0,0.08);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   font-size: 15px;
 }
 
