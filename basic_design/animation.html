@@ -7,10 +7,12 @@
     <style>
       @keyframes show {
         from {
-          background-color: yellow;
+          opacity: 0;
+          transform: translateX(0);
         }
         to {
-          background-color: green;
+          opacity: 1;
+          transform: translateX(20px);
         }
       }
 
@@ -23,7 +25,8 @@
         width: 100px;
         height: 100px;
         transition: 1s;
-        animation: show 3s forwards;
+        background-color: red;
+        animation: show 0.5s forwards;
       }
 
       #element:hover {
