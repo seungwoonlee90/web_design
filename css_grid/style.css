@@ -4,3 +4,10 @@
   grid-auto-rows: 10vh;
   grid-gap: 1vw;
 }
+
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
